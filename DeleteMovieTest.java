@@ -11,7 +11,7 @@ public class DeleteMovieTest {
 	@Test
 	public void f() throws Exception {
 		WebDriver driver;
-		File file = new File("C:/chromeDriver.exe");
+		File file = new File("C:/chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		String url = "http://localhost:1572/";
 
