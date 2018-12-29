@@ -14,8 +14,8 @@ public class SearchTest {
   @Test
   public void f() throws InterruptedException, FileNotFoundException {
 	  	WebDriver driver;
-		File file = new File("C:/MicrosoftWebDriver.exe");
-		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
+		File file = new File("C:/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		String url = "http://localhost:1572/";
 
 		driver = new EdgeDriver();
