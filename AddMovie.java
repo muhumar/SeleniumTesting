@@ -67,7 +67,7 @@ public class AddMovie {
 		System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 		String url = "http://localhost:1572/";
 
-		driver = new EdgeDriver();
+		driver = new ChromeDriver();
 		driver.get(url);
 		Thread.sleep(2000);
 		AddMovie a = new AddMovie(driver);
